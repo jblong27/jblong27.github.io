@@ -1,0 +1,70 @@
+body { 
+    background: rgb(63, 62, 62);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background: rgb(104, 104, 104);
+    padding: 20px;
+    text-align: center;
+    height: 400px;
+    background-image: url("images/mountains.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+header .logo a {
+    background-image: url("images/logo.png");
+    background-size: 300px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 200px;
+    text-indent: -9999999px;
+    top: -20px;
+    position: relative;
+    width: 300px;
+}
+section {
+    background: rgb(156, 211, 163);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+} 
+section div {
+    display: inline-block;
+    background: rgb(104, 104, 104);
+    border-radius: 3px 10px 10px 3px;
+    padding: 2px;
+    margin-left: 4px;
+}
+section div:first-child {
+    margin-left: 0;
+}
+footer {
+    background: black;
+    padding: 10px 20px;
+}  
+footer div {
+    background: rgb(104, 104, 104);
+    width: 20%;
+    margin: 1px;
+}
+div {
+    background: rgb(104, 104, 104);
+    display: inline;
+    margin: auto;
+    padding: 5px;
+    width: 100px;
+    border-radius: 15px 50px;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+li {
+    display: inline-block;
+    margin-right: 20px;
+}
